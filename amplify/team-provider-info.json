@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-speakeranalyticsapp-staging-203319-authRole",
+      "UnauthRoleArn": "arn:aws:iam::677552402073:role/amplify-speakeranalyticsapp-staging-203319-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::677552402073:role/amplify-speakeranalyticsapp-staging-203319-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-speakeranalyticsapp-staging-203319-deployment",
+      "UnauthRoleName": "amplify-speakeranalyticsapp-staging-203319-unauthRole",
+      "StackName": "amplify-speakeranalyticsapp-staging-203319",
+      "StackId": "arn:aws:cloudformation:us-east-1:677552402073:stack/amplify-speakeranalyticsapp-staging-203319/bc46e330-69db-11ed-bcbf-12f88cb5af59",
+      "AmplifyAppId": "d1ufkx0jyt0xrf"
+    },
+    "categories": {
+      "auth": {
+        "speakeranalyticsapp9c8b3b2f": {}
+      }
+    }
+  }
+}
