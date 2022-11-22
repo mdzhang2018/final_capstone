@@ -92,7 +92,7 @@ const App = ({ signOut }) => {
         <Flex direction="row" justifyContent="center">
           <TextField
             name="name"
-            placeholder="Note Name"
+            placeholder="(Recording Name)"
             label="Note Name"
             labelHidden
             variation="quiet"
@@ -100,7 +100,7 @@ const App = ({ signOut }) => {
           />
           <TextField
             name="description"
-            placeholder="Note Description"
+            placeholder="(Description)"
             label="Note Description"
             labelHidden
             variation="quiet"
@@ -110,17 +110,15 @@ const App = ({ signOut }) => {
             name="image"
             as="input"
             type="file"
-
             accept="video/*"
-
             style={{ alignSelf: "end" }}
           />
           <Button type="submit" variation="primary">
-            Create Note
+            Analyze
           </Button>
         </Flex>
       </View>
-      <Heading level={2}>Current Notes</Heading>
+      <Heading level={2}>Current Uploaded Recordings</Heading>
       <View margin="3rem 0">
       {notes.map((note) => (
         <Flex
@@ -136,12 +134,12 @@ const App = ({ signOut }) => {
           {note.image && (
             <Image
               src={note.image}
-              alt={`visual aid for ${notes.name}`}
-              style={{ width: 400 }}
+              alt={`[todo: s3 presigned URL]`}
+              style={{ width: 300 }}
             />
           )}
           <Button variation="link" onClick={() => deleteNote(note)}>
-            Delete note
+            Delete
           </Button>
         </Flex>
       ))}
