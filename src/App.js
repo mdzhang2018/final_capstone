@@ -87,7 +87,7 @@ const App = ({ signOut }) => {
 
   return (
     <View className="App">
-      <Heading level={1}>AWS Speaker Analytics</Heading>
+      <Heading level={1}>AWSome Speaker Analytics</Heading>
       <View as="form" margin="3rem 0" onSubmit={createNote}>
         <Flex direction="row" justifyContent="center">
           <TextField
